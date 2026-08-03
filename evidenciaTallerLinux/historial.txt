@@ -1,0 +1,173 @@
+  731  pwd
+  732  cd	~
+  733  pwd
+  734  mkdir temp
+  735  mkdir temp/stuff
+  736  mkdir temp/stuff/things
+  737  mkdir -p temp/stuff/things/orange/apple/pear/grape
+  738  cd temp
+  739  cd stuff
+  740  cd things/
+  741  cd orange/
+  742  pwd
+  743  cd apple/
+  744  pwd
+  745  cd pear
+  746  pwd
+  747  cd grape
+  748  pwd
+  749  cd ..
+  750  pwd
+  751  cd ../..
+  752  pwd
+  753  cd ../../..
+  754  cd temp/stuff/things/orange/apple/pear/grape/
+  755  cd ../../../../../../..
+  756  pwd
+  757  cd temp
+  758  ls
+  759  cd stuff/
+  760  ls
+  761  cd things/
+  762  ..
+  763  ls
+  764  cd orange/
+  765  ls
+  766  cd apple/
+  767  ls
+  768  cd pear
+  769  ls
+  770  cd grape/
+  771  ls
+  772  cd ..
+  773  ls
+  774  cd ../../..
+  775  ls
+  776  cd ../..
+  777  ls
+  778  cd temp
+  779  ls
+  780  cd stuff/things/orange/apple/pear/grape/
+  781  cd ..
+  782  rmdir grape
+  783  cd ..
+  784  rmdir pear
+  785  cd ..
+  786  ls
+  787  rmdir apple
+  788  cd ..
+  789  ls
+  790  rmdir orange
+  791  cd ..
+  792  ls
+  793  rmdir things/
+  794  cd ..
+  795  ls
+  796  rmdir stuff/
+  797  pwd
+  798  mkdir -p i/like/icecream
+  799  pushd i/like/icecream
+  800  pwd
+  801  popd
+  802  pwd
+  803  pushds i/like
+  804  pushd i/like
+  805  pwd
+  806  pushd icecream
+  807  pwd
+  808  popd
+  809  pushd i/like/icecream/
+  810  pushd
+  811  wd
+  812  pwd
+  813  pushd
+  814  popd
+  815  touch iamcool.txt
+  816  ls
+  817  ls -l
+  818  cd temp
+  819  cp iamcool.txt neat.txt
+  820  ls
+  821  cp neat.txt awesome.txt
+  822  ls
+  823  cp awesome.txt thefourthfile.txt
+  824  ls
+  825  mkdir something
+  826  ls
+  827  cp awesome.txt something/
+  828  ls
+  829  ls something/
+  830  cp -r something newplace
+  831  ls newplace/
+  832  ls
+  833  cp something hola
+  834  ls
+  835  cp -r something/ hola
+  836  ls
+  837  ls hola
+  838  rdir hola
+  839  rmdir hola
+  840  rmdir -r hola
+  841  rmidr --help
+  842  rmdir --help
+  843  rmdir -p hola
+  844  sudo rmdir hola
+  845  rm hola
+  846  rm -r hola
+  847  ls
+  848  rmdir i
+  849  ls i
+  850  rmdir -r i
+  851  rm -r i
+  852  ls
+  853  ls newplace/
+  854  git status
+  855  v awesome.txt uncool.txt
+  856  mkdir i/like/icecream
+  857  mkdir -p i/like/icecream
+  858  ls
+  859  ls i
+  860  ls i/like/
+  861  mv awesome.txt uncool.txt
+  862  ls
+  863  mv newplace/ oldplace
+  864  ls
+  865  mv oldplace/ newplace
+  866  ls
+  867  mkdir test
+  868  cd test
+  869  ls
+  870  touch archivo.txt
+  871  vim archivo.txt 
+  872  cat archivo.txt 
+  873  less archivo.txt 
+  874  more archivo.txt 
+  875  cd temp
+  876  cd ..
+  877  ls
+  878  rm uncool.txt
+  879  ls
+  880  rm iamcool.txt neat.txt thefourthfile.txt 
+  881  ls
+  882  cp -r something/ newplace/
+  883  ls
+  884  rm something/awesome.txt 
+  885  rmdir something/
+  886  rm -rf newplace/
+  887  ls
+  888  history
+  889  ls
+  890  rm i
+  891  rm -r i
+  892  rm test
+  893  rm -r test
+  894  ls
+  895  mkdir evidencia
+  896  cd evidencia/
+  897  history | awk '$1 >= 738' > historial.txt
+  898  ls
+  899  vim historial.txt 
+  900  history
+  901  rm historial.txt 
+  902  ls
+  903  history | awk '$1 >= 731' > historial.txt
